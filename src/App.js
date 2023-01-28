@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import smell_that from './svgs/smellthat.svg';
+import logo from './svgs/Logo.svg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img className="smellthat" src={smell_that} alt="smell_that"></img>
+      <div className="fill">
+        <img className="logo_text" src={logo}></img>
+      </div>
     </div>
   );
 }
