@@ -10,7 +10,7 @@ function App() {
         <h1 class="animate__animated animate__fadeInDown animate__delay-1s">something's <span>cooking...</span></h1>
       </div>
       <div className="fill animate__animated animate__fadeIn animate__delay-2s">
-        <img className="logo_text" src={logo}></img>
+        <img className="logo" src={logo}></img>
       </div>
     </div>
   );
